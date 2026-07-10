@@ -18,5 +18,6 @@
 
 ## Runs
 
-* [2026-07-07 furnace sputter ellipso profilo](runs/2026-07-07-furnace-sputter-ellipso-profilo.md)
+* [2026-07-07 furnace ellipso](runs/2026-07-07-furnace-ellipso.md)
+* [2026-07-07 sputter profilo](runs/2026-07-07-sputter-profilo.md)
 * [USAF resolution test](runs/usaf-resolution-test.md)
