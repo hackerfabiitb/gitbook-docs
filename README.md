@@ -1,5 +1,5 @@
 ---
-description: Homepage
+description: Here lies the documentation of HackerFab IIT Bombay, in all its glory.
 ---
 
 # HackerFab IITB Docs
