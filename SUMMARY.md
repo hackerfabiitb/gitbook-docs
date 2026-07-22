@@ -6,7 +6,8 @@
 
 ***
 
-* [litho-v1](litho-v1.md)
+* [litho-v1](litho-v1/README.md)
+  * [XYZ Stage](litho-v1/xyz-stage.md)
 * [sputter-v2](sputter-v2.md)
 * [tube-furnace](tube-furnace.md)
 * [dopant](dopant.md)
