@@ -38,7 +38,9 @@ This documentation is provided for educational and informational purposes only. 
 
 ## The Build
 
+### Building the Furnace
 
+### Building the Circuit
 
 ## Safety
 
