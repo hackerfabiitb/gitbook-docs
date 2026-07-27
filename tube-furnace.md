@@ -40,9 +40,61 @@ This documentation is provided for educational and informational purposes only. 
 
 ### The Furnace
 
-
-
 ### The Circuit
+
+#### Component List
+
+* Multispan UTC-4202G+ PID Controller
+* Fotek SSR-40DA (40A)
+* Bakelite Connector (30A)
+* K-Type Minerally Insulated Thermocouple
+* Digital AC Voltmeter
+* Digital AC Ammeter
+* Heating Switch(MCB 25A)
+* Main Switch
+
+Here are the datasheets for the Temperature Controller and SSR
+
+{% file src=".gitbook/assets/UTC-4202G+4359.pdf" %}
+
+{% file src=".gitbook/assets/ssr-40da-datasheet.pdf" %}
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+Here is the pinout of the temperature controller,the connections we've made are:
+
+1. Pin 1 - Live wire
+2. Pin 2 - Neutral wire
+3. Pin 6 - SSR Pin 4 (DC-)
+4. Pin 7 - SSR Pin 3 (DC+)
+5. Pin 8 - K-Type Thermocouple(yellow wire)
+6. Pin 9 - K-Type Thermocouple(red wire)
+
+We used K-Type Thermocouple where the positive wire was yellow and the negative wire was red.
+
+Note: You can also make your own controller we just decided to use the one we already had in the lab.
+
+Here's a colour coding chart depending on what type of thermocouple you use
+
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Here is the SSR connection diagram
+
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+As mentioned above we've connected pin 3 of the ssr to pin 7 of the controller and pin 4 to pin 8
+
+Note: I've attached the datasheet and connections for the fotek 40DA ssr, but we've used the sibass one but the functionality remains the same
+
+Bakelite Connector: We've used it to interface all the connections we need safely. It is rated for 30A
+
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+This is what the overall circuit looks like:
+
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Safety
 
