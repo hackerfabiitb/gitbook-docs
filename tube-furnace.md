@@ -40,7 +40,7 @@ This documentation is provided for educational and informational purposes only. 
 
 ### The Furnace
 
-This build covers&#x20;
+This build covers the conversion of the Kanthal wire into a coil, creating the refractory cement cast, covering it with ceramic wool and fabricating the steel enclosure. Quite a bit of this is laborious work, so you might need a few keen helpers here and there, be ready to ask for help! After all of this, the furnace should look like this :
 
 <figure><img src=".gitbook/assets/E16B28F8-F306-4B6A-ABBD-8C4B7FE10522_1_105_c (2).jpeg" alt=""><figcaption></figcaption></figure>
 
