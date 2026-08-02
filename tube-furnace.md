@@ -98,7 +98,7 @@ The precise shape of our heating element would be a coiled coil as shown below:
 
 <figure><img src=".gitbook/assets/Screenshot 2026-07-28 at 8.36.15 PM.png" alt=""><figcaption></figcaption></figure>
 
-The image is a bit poor, but this is a model of the actual heating element inside the furnace.
+The image is a bit poor, but this is a model of the actual heating element inside the furnace. test
 
 
 
