@@ -6,13 +6,13 @@ description: This is the official HackerFab IITB documentation for the tube furn
 
 ## The Tube Furnace
 
-A tube furnace is a special piece of equipment widely used in many labarotaries to carry out various chemical reactions in a controlled manner. In the case of semiconductors, tube furnaces are used mainly for carrying out the oxidation of Silicon or n-type doping.
+A tube furnace is a special piece of equipment widely used in many labarotaries to carry out various chemical reactions in a controlled manner. In the case of semiconductors, tube furnaces are used mainly for carrying out the oxidation of Silicon or any type of diffusion doping.
 
 $$
 \Large \mathrm{Si} + \mathrm{O_2} \xrightarrow{1100°\mathrm{C}} \mathrm{SiO_2}
 $$
 
-The tube furnace we have built at HackerFab IITB is currently designed for oxidation only, however we plan to modify it and implement phosphurus doping soon. This is what it looks like!
+The tube furnace we have built at HackerFab IITB can currently perform oxidation, but can be modified to carry out any high temperature process. This is what it looks like!
 
 <figure><img src=".gitbook/assets/84B24CF3-BC6E-421A-8579-179F10D9CB89_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -109,9 +109,50 @@ Here is a general workflow of what we will be doing next :
 3. Pouring in the cement, and letting it sit (2.3)
 4. Curing the cement (2.4)
 
-Firstly, when we pour the cement, none of it should go into the inner PVC, so you must install the caps onto it before coiling the coil onto it.&#x20;
+Firstly, when we pour the cement, none of it should go into the inner PVC, so you must install the caps onto it before coiling the coil onto it. Then make even markings at a distance of 3cm, leaving more than 10 cm of space on each side. Like this :
 
+<figure><img src=".gitbook/assets/3E2AB81C-FB06-4460-8467-59E7384A50BA_1_102_o.jpeg" alt=""><figcaption></figcaption></figure>
 
+Now, the hard part. At one end - tie the Kanthal coil's loose end with a Kanthal wire of lesser gauge. Make maximum use of force and tie it as hard as humanly possible. Make sure you have more people to help you. Notice the place it which you tie it must be that place where the loose end starts and the coil ends :
+
+<figure><img src=".gitbook/assets/CD83909E-DFD4-4CFE-8F5C-0AA93E75C447_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+
+Make sure you let the loose end be as long as possible on both sides, since this is where the heating element will be connected to the circuit. They essentially serve as the terminals of the heating element!
+
+Now, you'll need help for this as well - actually coiling the coil around the PVC. Again, make sure it is as tight as humanly possible, and while keeping this tightness - you must tie the other end of the coil with Kanthal of a lesser gauge :
+
+<figure><img src=".gitbook/assets/CA61A4A5-4567-41F2-942A-4CE2C74A80FD_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+After you have toiled this much, enjoy the fruits of your labour by measuring the coils net resistance, since this will decide how much current will pass through and how hot it will theoretically get!
+
+Thats it! The coiled coil is done!
+
+#### 2.2 The PVC Mould
+
+The PVC mould, at the end of the day, is a mould. The only purpose it serves is to shape the cement cast. However, there are some things you must take into consideration before pouring in the cement :&#x20;
+
+1. Make holes to let the loose Kanthal ends out
+2. Install the PVC pipe caps in such a way so that water can be drained from the cement
+
+Number 1 is easy, just measure where you want your Kanthal to poke out and drill a hole there.
+
+<figure><img src=".gitbook/assets/6E94851C-1CFE-4B20-B668-5D62D707C14C_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+Number 2 is a bit tricky, and requires modifying with the PVC pipe caps a little. Drill a hole the diameter of the inner pipe (75 mm) in the outer PVC's cap. You will need a lathe for this :
+
+<figure><img src=".gitbook/assets/Screenshot 2026-08-03 at 8.13.01 PM.png" alt=""><figcaption></figcaption></figure>
+
+Once that is done, just put the cap onto the outer PVC and cover the inner parts of the cap with thermocol like so :
+
+<figure><img src=".gitbook/assets/06B235EE-E54D-45F2-8C22-DB4F00D382A4_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+This leaves an essential gap between the PVC cap and the cement, so that they don't stick and the water can drain through it. Now, carefully lower the coiled coil on the inner PVC and fit it into the hole on the outer PVC cap. Make sure the coil maintains a uniform pitch throughout this procedure.
+
+![](.gitbook/assets/56A03145-37BB-49F9-92B6-9999C89FF784_1_105_c.jpeg)&#x20;
+
+Now that this is done, only install the inner PVC cap on one side, which is the side from which we will pour the cement. It should not be installed on the other side so that water can drain out.&#x20;
+
+#### 2.3 The Cement Pour
 
 ### The Circuit
 
