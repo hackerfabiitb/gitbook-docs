@@ -29,22 +29,22 @@ This documentation is provided for educational and informational purposes only. 
 
 ### Bill of Materials (BOM)
 
-Capex (Capital Expenditure):
+| Item                | Description/Source                             | Cost (INR)   | Type  |
+| ------------------- | ---------------------------------------------- | ------------ | ----- |
+| Vacuum Chamber      | Upcycled from Sputter v-2 build                | N/A          | Capex |
+| Rotary Pump         | Upcycled from Sputter v-2 build                | N/A          | Capex |
+| Turbo Pump          | Upcycled from Sputter v-2 build                | N/A          | Capex |
+| Pirani Gauge        | Upcycled from Sputter v-2 build                | N/A          | Capex |
+| Penning Gauge       | Upcycled from Sputter v-2 build                | N/A          | Capex |
+| Copper Feedthroughs | Custom made at RD Brothers (Khairani Road)     | ₹ 2,000      | Capex |
+| Teflon Washers      | Machined at RD Brothers (Khairani Road)        | ₹ 1,000      | Capex |
+| Gaskets             | Viton sheet machined at RD Brothers            | _\[Cost?]_   | Capex |
+| Substrate Stand     | Custom machined from Stainless Steel (SS)      | _\[Cost?]_   | Capex |
+| Power Supply        | Welding PSU (220V AC mains, 220A max output)   | _\[Cost?]_   | Capex |
+| Tungsten Filament   | Basket style; KMV Vacuum Technology, Bangalore | \~₹ 900 / ea | Opex  |
+| Target Metal        | e.g., Aluminum pellets (\~100 grams)           | \~₹ 2,500    | Opex  |
 
-* Vacuum Chamber: Upcycled from Sputter v-2 build
-* Rotary Pump & Turbo Pump: Upcycled from Sputter v-2 build
-* Pirani Gauge & Penning Gauge: Upcycled from Sputter v-2 build
-* Copper Feedthroughs: Custom made at RD Brothers (Khairani Road) - ₹2000
-* Teflon Washers: Machined at RD Brothers (Khairani Road) - ₹1000
-* Gaskets: Viton sheet machined at RD Brothers
-* Substrate Stand: Custom machined from Stainless Steel (SS)
-* Power Supply: Welding Power Supply (220 V AC mains, 220 Amps max output).
-  * \[PLACEHOLDER: Add exact model, bill link, and cost of Welding Power Supply]
-
-Opex (Operational Expenditure):
-
-* Tungsten Basket Filament: KMV Vacuum Technology, Bangalore - \~₹900 each
-* Target Metal Pellets: e.g., Aluminum - ₹2500 for \~100 grams
+_\[PLACEHOLDER: Add exact model, bill link, and cost of Welding Power Supply]_ _\[PLACEHOLDER: Add costs for the gaskets and substrate stand if known]_
 
 ### The Build
 
@@ -130,3 +130,15 @@ The filament inside reaches temperatures capable of vaporizing metal, making the
 
 * Consult the MSDS: Always check the Material Safety Data Sheet (MSDS) of the target metal before evaporating it. You might think you are playing with a harmless material, only to find out its vapour or oxide form is a toxic carcinogen!
 * Hygiene: Wear nitrile gloves during the entire cleaning and loading process to avoid skin exposure to solvents, metal residues, and to prevent contaminating the vacuum chamber with organic oils from your hands.
+
+### Thermal Evaporator V2: Planned Improvements
+
+While the current setup is functional, the following improvements are planned for the next iteration of the evaporator to increase safety, reliability, and ease of use:
+
+1. Dedicated Chamber: The current evaporator shares a chamber with the Sputter setup. V2 will feature a completely separate, dedicated vacuum chamber. This will allow both machines to be operated independently and simultaneously, increasing lab throughput and preventing cross-contamination between processes.
+2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.
+3. Source Shutter: A mechanical shutter placed just above the filament will be added. This allows the filament to be heated and stabilized, evaporating any surface impurities on the metal pellets onto the shutter. The shutter can then be opened to expose the clean, evaporating metal to the substrate, resulting in much higher film purity.
+4. Water Cooling for Feedthroughs: At higher currents or longer runs, the copper feedthroughs can become excessively hot. V2 will incorporate water-cooled feedthrough blocks to manage heat dissipation, preventing damage to the Viton O-rings and maintaining a better vacuum seal.
+5.  Thickness Monitor: Integrating a Quartz Crystal Microbalance (QCM) inside the chamber to measure the thickness of the deposited film in real-time, allowing for precise control over the final coating thickness.
+
+    [![](https://www.gstatic.com/images/branding/productlogos/youtube/v9/192px.svg)Evaporating Metal in a High Vacuum to Coat Glass and PLA - PVDAdvanced Tinkering · 152K views](http://www.youtube.com/watch?v=97716PkbX2M)[Open in Evaporating Metal in a High Vacuum to Coat Glass and PLA - PVD ](http://www.youtube.com/watch?v=97716PkbX2M)![](https://i.ytimg.com/vi/97716PkbX2M/maxresdefault.jpg)![](https://www.gstatic.com/images/branding/productlogos/youtube/v9/192px.svg)
