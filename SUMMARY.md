@@ -11,6 +11,11 @@
 * [dopant](tools/dopant.md)
 * [thermal-evaporator-v1](tools/thermal-evaporator-v1.md)
 
+## FAB BASICS
+
+* [Wafer Info](fab-basics/wafer-info.md)
+* [Wafer Handling](fab-basics/wafer-handling.md)
+
 ## Processes
 
 * [MOSCAP](processes/moscap.md)
@@ -18,6 +23,7 @@
 
 ***
 
+* [HackerFab Universe](hackerfab-universe.md)
 * [Runs](runs/README.md)
   * [2026-07-07 furnace ellipso](runs/2026-07-07-furnace-ellipso.md)
   * [2026-07-07 sputter profilo](runs/2026-07-07-sputter-profilo.md)
