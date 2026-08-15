@@ -137,6 +137,6 @@ While the current setup is functional, the following improvements are planned fo
 
 1. Dedicated Chamber: The current evaporator shares a chamber with the Sputter setup. V2 will feature a completely separate, dedicated vacuum chamber. This will allow both machines to be operated independently and simultaneously, increasing lab throughput and preventing cross-contamination between processes.
 2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.
-3.  Thickness Monitor: Integrating a Quartz Crystal Microbalance (QCM) inside the chamber to measure the thickness of the deposited film in real-time, allowing for precise control over the final coating thickness.
+3. Thickness Monitor: Integrating a Quartz Crystal Microbalance (QCM) inside the chamber to measure the thickness of the deposited film in real-time, allowing for precise control over the final coating thickness.
 
-    [![](https://www.gstatic.com/images/branding/productlogos/youtube/v9/192px.svg)Evaporating Metal in a High Vacuum to Coat Glass and PLA - PVDAdvanced Tinkering · 152K views](http://www.youtube.com/watch?v=97716PkbX2M)[Open in Evaporating Metal in a High Vacuum to Coat Glass and PLA - PVD ](http://www.youtube.com/watch?v=97716PkbX2M)![](https://i.ytimg.com/vi/97716PkbX2M/maxresdefault.jpg)![](https://www.gstatic.com/images/branding/productlogos/youtube/v9/192px.svg)
+{% embed url="https://www.youtube.com/watch?v=97716PkbX2M" %}
