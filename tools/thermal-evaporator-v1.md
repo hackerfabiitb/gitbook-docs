@@ -102,10 +102,11 @@ Step-by-Step Assembly:
 
 19. Ramp Down (Wear 1000V rated gloves!): Gradually step the current down to 0 Amps, then turn off the power supply.
 20. Cooling Period: Wait 25 minutes for the Tungsten filament to cool down. _Crucial:_ If a hot Tungsten filament is exposed to atmospheric oxygen, it will immediately oxidize and burn out.
-21. Power Down Gauges & Turbo: Turn off the Penning gauge. Turn off the turbo pump and wait 15 minutes for the turbine blades to come to a complete stop. The pressure will gently rise to about 1e-4 or 1e-3 mbar.
-22. Power Down Rotary: Turn off the rotary pump. Wait roughly 20 minutes for the system to naturally vent back to atmospheric pressure.
-23. Final Shutdown: Turn off the Pirani gauge and carefully remove both gauges from the top plate.
-24. Unload: Open the top plate and take out your coated substrate!
+21. Power Down Gauges & Turbo: Turn off the Penning gauge. Turn off the turbo pump by first turning off the switch from the front and then wait for the lights on it for the speed to turn off. This takes 15 minutes. The pressure will gently rise to about 1e-4 or 1e-3 mbar.
+22. Turn off turbo pump from the back.&#x20;
+23. Power Down Rotary: Turn off the rotary pump. Wait roughly 20 minutes for the system to naturally vent back to atmospheric pressure.
+24. Final Shutdown: Turn off the Pirani gauge and carefully remove both gauges and the MFC from the top plate.&#x20;
+25. Unload: Open the top plate and take out your coated substrate!
 
 ### Safety Guidelines
 
