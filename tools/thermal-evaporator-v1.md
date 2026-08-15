@@ -93,7 +93,7 @@ Step-by-Step Assembly:
 
 15. Power Up (Wear 1000V rated gloves!): Turn on the welding power supply.
 16. Ramp Current: Slowly ramp up the current in increments of 10 Amps at a time. Wait 30 seconds between each step to avoid thermal shock, until you reach a final current of 55 Amps.
-17. Evaporate: Maintain 55 Amps for 10-12 minutes to complete the deposition process.
+17. Evaporate: Maintain 55 Amps for 10-12 minutes to complete the deposition process. We have observed that it takes around 6-7 minutes for the evaporation to start, probably because of the time taken to heat the tungsten and start evaporation.
 18. Monitor Temperature: Periodically check the external temperature of the copper feedthroughs using a thermal gun. (Copper usually reaches only about 40°C at 55A; it is safe up to 200°C).
     * \[PLACEHOLDER: Add a picture demonstrating measuring the feedthrough temperature with the thermal gun]
 
@@ -136,7 +136,7 @@ The filament inside reaches temperatures capable of vaporizing metal, making the
 While the current setup is functional, the following improvements are planned for the next iteration of the evaporator to increase safety, reliability, and ease of use:
 
 1. Dedicated Chamber: The current evaporator shares a chamber with the Sputter setup. V2 will feature a completely separate, dedicated vacuum chamber. This will allow both machines to be operated independently and simultaneously, increasing lab throughput and preventing cross-contamination between processes.
-2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.
+2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.&#x20;
 3. Thickness Monitor: Integrating a Quartz Crystal Microbalance (QCM) inside the chamber to measure the thickness of the deposited film in real-time, allowing for precise control over the final coating thickness.
 
 {% embed url="https://www.youtube.com/watch?v=97716PkbX2M" %}
