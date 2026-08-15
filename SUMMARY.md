@@ -2,15 +2,14 @@
 
 * [HackerFab IITB Docs](README.md)
 
-## Toolkit
+## Tools
 
-***
-
-* [litho-v1](litho-v1/README.md)
-  * [XYZ Stage](litho-v1/xyz-stage.md)
-* [sputter-v2](sputter-v2.md)
-* [tube-furnace](tube-furnace.md)
-* [dopant](dopant.md)
+* [litho-v1](tools/litho-v1/README.md)
+  * [XYZ Stage](tools/litho-v1/xyz-stage.md)
+* [sputter-v2](tools/sputter-v2.md)
+* [tube-furnace](tools/tube-furnace.md)
+* [dopant](tools/dopant.md)
+* [thermal-evaporator-v1](tools/thermal-evaporator-v1.md)
 
 ## Processes
 

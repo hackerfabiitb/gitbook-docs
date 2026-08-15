@@ -14,7 +14,7 @@ $$
 
 The tube furnace we have built at HackerFab IITB can currently perform oxidation, but can be modified to carry out any high temperature process. This is what it looks like!
 
-<figure><img src=".gitbook/assets/84B24CF3-BC6E-421A-8579-179F10D9CB89_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/84B24CF3-BC6E-421A-8579-179F10D9CB89_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## Specs
 
@@ -44,13 +44,13 @@ Links to all the materials will be provided in another table separately.&#x20;
 
 This build covers the conversion of the Kanthal wire into a coil, creating the refractory cement cast, covering it with ceramic wool and fabricating the steel enclosure. Quite a bit of this is laborious work, so you might need a few keen helpers here and there, be ready to ask for help! After all of this, the furnace should look like this :
 
-<figure><img src=".gitbook/assets/E16B28F8-F306-4B6A-ABBD-8C4B7FE10522_1_105_c (2).jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/E16B28F8-F306-4B6A-ABBD-8C4B7FE10522_1_105_c (2).jpeg" alt=""><figcaption></figcaption></figure>
 
 #### The Heating Element
 
 First off, you need to buy approximately 1 kg of Kanthal A1 (14 Gauge). It should look a bit like this :
 
-<figure><img src=".gitbook/assets/D36988C8-48BC-4FC9-A0F5-99B9BDEBC26C_1_201_a.heic" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/D36988C8-48BC-4FC9-A0F5-99B9BDEBC26C_1_201_a.heic" alt=""><figcaption></figcaption></figure>
 
 Some basic questions you might have:
 
@@ -74,7 +74,7 @@ To fabricate the coil:
 
 After the coil has been machined, it should look like this (notice the loose wire at the ends) :&#x20;
 
-<figure><img src=".gitbook/assets/EC823C91-2E64-4783-84AE-D3A197F41508_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/EC823C91-2E64-4783-84AE-D3A197F41508_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
 
 #### If you want to design the coil specifications by yourself
 
@@ -98,7 +98,7 @@ Before starting this, ensure you have the following things :
 
 The precise shape of our heating element would be a coiled coil as shown below:
 
-<figure><img src=".gitbook/assets/Screenshot 2026-07-28 at 8.36.15 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-07-28 at 8.36.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 The image is a bit poor, but this is a model of the actual heating element inside the furnace.&#x20;
 
@@ -111,17 +111,17 @@ Here is a general workflow of what we will be doing next :
 
 Firstly, when we pour the cement, none of it should go into the inner PVC, so you must install the caps onto it before coiling the coil onto it. Then make even markings at a distance of 3cm, leaving more than 10 cm of space on each side. Like this :
 
-<figure><img src=".gitbook/assets/3E2AB81C-FB06-4460-8467-59E7384A50BA_1_102_o.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3E2AB81C-FB06-4460-8467-59E7384A50BA_1_102_o.jpeg" alt=""><figcaption></figcaption></figure>
 
 Now, the hard part. At one end - tie the Kanthal coil's loose end with a Kanthal wire of lesser gauge. Make maximum use of force and tie it as hard as humanly possible. Make sure you have more people to help you. Notice the place it which you tie it must be that place where the loose end starts and the coil ends :
 
-<figure><img src=".gitbook/assets/CD83909E-DFD4-4CFE-8F5C-0AA93E75C447_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CD83909E-DFD4-4CFE-8F5C-0AA93E75C447_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
 
 Make sure you let the loose end be as long as possible on both sides, since this is where the heating element will be connected to the circuit. They essentially serve as the terminals of the heating element!
 
 Now, you'll need help for this as well - actually coiling the coil around the PVC. Again, make sure it is as tight as humanly possible, and while keeping this tightness - you must tie the other end of the coil with Kanthal of a lesser gauge :
 
-<figure><img src=".gitbook/assets/CA61A4A5-4567-41F2-942A-4CE2C74A80FD_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CA61A4A5-4567-41F2-942A-4CE2C74A80FD_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
 
 After you have toiled this much, enjoy the fruits of your labour by measuring the coils net resistance, since this will decide how much current will pass through and how hot it will theoretically get!
 
@@ -136,19 +136,19 @@ The PVC mould, at the end of the day, is a mould. The only purpose it serves is 
 
 Number 1 is easy, just measure where you want your Kanthal to poke out and drill a hole there.
 
-<figure><img src=".gitbook/assets/6E94851C-1CFE-4B20-B668-5D62D707C14C_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6E94851C-1CFE-4B20-B668-5D62D707C14C_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
 
 Number 2 is a bit tricky, and requires modifying with the PVC pipe caps a little. Drill a hole the diameter of the inner pipe (75 mm) in the outer PVC's cap. You will need a lathe for this :
 
-<figure><img src=".gitbook/assets/Screenshot 2026-08-03 at 8.13.01 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-08-03 at 8.13.01 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once that is done, just put the cap onto the outer PVC and cover the inner parts of the cap with thermocol like so :
 
-<figure><img src=".gitbook/assets/06B235EE-E54D-45F2-8C22-DB4F00D382A4_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/06B235EE-E54D-45F2-8C22-DB4F00D382A4_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
 
 This leaves an essential gap between the PVC cap and the cement, so that they don't stick and the water can drain through it. Now, carefully lower the coiled coil on the inner PVC and fit it into the hole on the outer PVC cap. Make sure the coil maintains a uniform pitch throughout this procedure.
 
-![](.gitbook/assets/56A03145-37BB-49F9-92B6-9999C89FF784_1_105_c.jpeg)&#x20;
+![](../.gitbook/assets/56A03145-37BB-49F9-92B6-9999C89FF784_1_105_c.jpeg)&#x20;
 
 Now that this is done, only install the inner PVC cap on one side, which is the side from which we will pour the cement. It should not be installed on the other side so that water can drain out.&#x20;
 
@@ -169,11 +169,11 @@ Now that this is done, only install the inner PVC cap on one side, which is the 
 
 Here are the datasheets for the Temperature Controller and SSR
 
-{% file src=".gitbook/assets/UTC-4202G+4359.pdf" %}
+{% file src="../.gitbook/assets/UTC-4202G+4359.pdf" %}
 
-{% file src=".gitbook/assets/ssr-40da-datasheet.pdf" %}
+{% file src="../.gitbook/assets/ssr-40da-datasheet.pdf" %}
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Here is the pinout of the temperature controller,the connections we've made are:
 
@@ -190,11 +190,11 @@ Note: You can also make your own controller we just decided to use the one we al
 
 Here's a colour coding chart depending on what type of thermocouple you use
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Here is the SSR connection diagram
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 As mentioned above we've connected pin 3 of the ssr to pin 7 of the controller and pin 4 to pin 8
 
@@ -202,11 +202,11 @@ Note: I've attached the datasheet and connections for the fotek 40DA ssr, but we
 
 Bakelite Connector: We've used it to interface all the connections we need safely. It is rated for 30A
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 This is what the overall circuit looks like:
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -260,7 +260,7 @@ Ceramic wool fibers can cause severe respiratory irritation and long-term lung d
 
 Here is the MSDS, I urge you to take a look at it:
 
-{% file src=".gitbook/assets/Ceramic_Wool_MSDS.pdf" %}
+{% file src="../.gitbook/assets/Ceramic_Wool_MSDS.pdf" %}
 
 #### 2. Quartz Glass
 
@@ -268,7 +268,7 @@ The quartz tube and boat are highly susceptible to thermal shock. Pulling the bo
 
 This is certainly not as bad as ceramic wool, but you should still check the MSDS out:
 
-{% file src=".gitbook/assets/Quartz_MSDS.pdf" %}
+{% file src="../.gitbook/assets/Quartz_MSDS.pdf" %}
 
 #### 3. First Burn-In
 
@@ -276,4 +276,4 @@ The first time you fire up the furnace, the Whytheat refractory cement and some 
 
 Again, not as bad as the ceramic wool. Here is the MSDS:
 
-{% file src=".gitbook/assets/Refractory_Cement_MSDS.pdf" %}
+{% file src="../.gitbook/assets/Refractory_Cement_MSDS.pdf" %}
