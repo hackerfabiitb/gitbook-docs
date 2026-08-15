@@ -7,7 +7,7 @@
 * [litho-v1](tools/litho-v1/README.md)
   * [XYZ Stage](tools/litho-v1/xyz-stage.md)
 * [sputter-v2](tools/sputter-v2.md)
-* [tube-furnace](tools/tube-furnace.md)
+* [tube-furnace](tube-furnace.md)
 * [dopant](tools/dopant.md)
 * [thermal-evaporator-v1](tools/thermal-evaporator-v1.md)
 
