@@ -74,7 +74,7 @@ Step-by-Step Assembly:
 3. Cleaning: Clean the entire internal chamber and all components that go inside (especially the substrate stand) using Acetone, followed by IPA. _Do this while wearing nitrile gloves to avoid transferring oils from your skin._
 4. Install Filament: Connect the Tungsten filament across the feedthroughs. Caution: Do not apply excessive mechanical stress to the filament, or it will snap.
 5. Load Pellets: Place your metal pellets inside the Tungsten filament.
-6. Place Substrate: Put the SS stand back into the chamber. Place your substrate onto the stand. Double-check that the substrate is positioned perfectly over the hole in the stand, sitting at the correct height (8.5 cm) directly above the Tungsten basket.
+6. Place Substrate: Put the SS stand back into the chamber. Place your substrate onto the stand. Double-check that the substrate is positioned perfectly over the hole in the stand, sitting at the correct height (8.5 cm) directly above the Tungsten basket. You can put a glass slide next to the silicon wafer if depositing on silicon to observe whether the deposition has started.&#x20;
 7. Seal Chamber: Place the top plate back on and begin screwing it in.
 8. Connect Gauges: Connect both the Pirani gauge and the Penning gauge to their respective ports on the top plate.
 
@@ -138,5 +138,7 @@ While the current setup is functional, the following improvements are planned fo
 1. Dedicated Chamber: The current evaporator shares a chamber with the Sputter setup. V2 will feature a completely separate, dedicated vacuum chamber. This will allow both machines to be operated independently and simultaneously, increasing lab throughput and preventing cross-contamination between processes.
 2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.&#x20;
 3. Thickness Monitor: Integrating a Quartz Crystal Microbalance (QCM) inside the chamber to measure the thickness of the deposited film in real-time, allowing for precise control over the final coating thickness.
+
+
 
 {% embed url="https://www.youtube.com/watch?v=97716PkbX2M" %}
