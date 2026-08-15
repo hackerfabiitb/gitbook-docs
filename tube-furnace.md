@@ -192,19 +192,9 @@ There is no peaceful way to remove the inner PVC. Use a oxygen blowtorch to melt
 
 Then, to the extruding Kanthal Coil ends, twirl Kanthal of a lesser gauge around them to make them thicker and being able to take more current. (You can see this in the next picture)
 
-After this is done, wire the cement to the main line **(DO THIS WITH EXTREME CAUTION, AND WITH THE HELP OF A PROFESSIONAL!!)**&#x20;
+#### 2.4.1 The Wait
 
-<figure><img src=".gitbook/assets/BAE13695-5342-4AEE-819C-73C126151927_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
-
-I will give brief directions on how to do this here, but I heavily advise you to do these with the help of an electrician or someone who has done these things before :&#x20;
-
-* Identify Mains, Neutral, Ground pins
-* Attach 2 thick gauge wires to Mains
-* Attach these wires to one end and the other end to Neutral
-
-We are not responsible if any injury or death occurs to you. Please do this carefully and with someone knowledgeable.&#x20;
-
-After this has been done,&#x20;
+It'll take 3-4 days for the cement to dry completely. In the meantime, you need to complete the electrical circuit, the directions for which are given after the furnace build.
 
 ### The Circuit
 
