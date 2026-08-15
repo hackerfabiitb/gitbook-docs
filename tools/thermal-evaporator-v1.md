@@ -29,20 +29,21 @@ This documentation is provided for educational and informational purposes only. 
 
 ### Bill of Materials (BOM)
 
-| Item                | Description/Source                             | Cost (INR)   | Type  |
-| ------------------- | ---------------------------------------------- | ------------ | ----- |
-| Vacuum Chamber      | Upcycled from Sputter v-2 build                | N/A          | Capex |
-| Rotary Pump         | Upcycled from Sputter v-2 build                | N/A          | Capex |
-| Turbo Pump          | Upcycled from Sputter v-2 build                | N/A          | Capex |
-| Pirani Gauge        | Upcycled from Sputter v-2 build                | N/A          | Capex |
-| Penning Gauge       | Upcycled from Sputter v-2 build                | N/A          | Capex |
-| Copper Feedthroughs | Custom made at RD Brothers (Khairani Road)     | ₹ 2,000      | Capex |
-| Teflon Washers      | Machined at RD Brothers (Khairani Road)        | ₹ 1,000      | Capex |
-| Gaskets             | Viton sheet machined at RD Brothers            | _\[Cost?]_   | Capex |
-| Substrate Stand     | Custom machined from Stainless Steel (SS)      | _\[Cost?]_   | Capex |
-| Power Supply        | Welding PSU (220V AC mains, 220A max output)   | _\[Cost?]_   | Capex |
-| Tungsten Filament   | Basket style; KMV Vacuum Technology, Bangalore | \~₹ 900 / ea | Opex  |
-| Target Metal        | e.g., Aluminum pellets (\~100 grams)           | \~₹ 2,500    | Opex  |
+| Item                | Description/Source                               | Cost (INR)   | Type  |
+| ------------------- | ------------------------------------------------ | ------------ | ----- |
+| Vacuum Chamber      | Upcycled from Sputter v-2 build                  | N/A          | Capex |
+| Rotary Pump         | Upcycled from Sputter v-2 build                  | N/A          | Capex |
+| Turbo Pump          | Upcycled from Sputter v-2 build                  | N/A          | Capex |
+| Pirani Gauge        | Upcycled from Sputter v-2 build                  | N/A          | Capex |
+| Penning Gauge       | Upcycled from Sputter v-2 build                  | N/A          | Capex |
+| Copper Feedthroughs | Custom made at RD Brothers (Khairani Road)       | ₹ 2,000      | Capex |
+| Teflon Washers      | Machined at RD Brothers (Khairani Road)          | ₹ 1,000      | Capex |
+| Gaskets             | Viton sheet machined at RD Brothers              | _\[Cost?]_   | Capex |
+| Substrate Stand     | Custom machined from Stainless Steel (SS)        | _\[Cost?]_   | Capex |
+| Power Supply        | Welding PSU (220V AC mains, 220A max output)     | _\[Cost?]_   | Capex |
+| Electrical Gloves   | Electrically insulated; rated for at least 1000V | _\[Cost?]_   | Capex |
+| Tungsten Filament   | Basket style; KMV Vacuum Technology, Bangalore   | \~₹ 900 / ea | Opex  |
+| Target Metal        | e.g., Aluminum pellets (\~100 grams)             | \~₹ 2,500    | Opex  |
 
 _\[PLACEHOLDER: Add exact model, bill link, and cost of Welding Power Supply]_ _\[PLACEHOLDER: Add costs for the gaskets and substrate stand if known]_
 
@@ -74,7 +75,7 @@ Step-by-Step Assembly:
 3. Cleaning: Clean the entire internal chamber and all components that go inside (especially the substrate stand) using Acetone, followed by IPA. _Do this while wearing nitrile gloves to avoid transferring oils from your skin._
 4. Install Filament: Connect the Tungsten filament across the feedthroughs. Caution: Do not apply excessive mechanical stress to the filament, or it will snap.
 5. Load Pellets: Place your metal pellets inside the Tungsten filament.
-6. Place Substrate: Put the SS stand back into the chamber. Place your substrate onto the stand. Double-check that the substrate is positioned perfectly over the hole in the stand, sitting at the correct height (8.5 cm) directly above the Tungsten basket. You can put a glass slide next to the silicon wafer if depositing on silicon to observe whether the deposition has started.&#x20;
+6. Place Substrate: Put the SS stand back into the chamber. Place your substrate onto the stand. Double-check that the substrate is positioned perfectly over the hole in the stand, sitting at the correct height (8.5 cm) directly above the Tungsten basket. You can put a glass slide next to the silicon wafer if depositing on silicon to observe whether the deposition has started.
 7. Seal Chamber: Place the top plate back on and begin screwing it in.
 8. Connect Gauges: Connect both the Pirani gauge and the Penning gauge to their respective ports on the top plate.
 
@@ -136,9 +137,7 @@ The filament inside reaches temperatures capable of vaporizing metal, making the
 While the current setup is functional, the following improvements are planned for the next iteration of the evaporator to increase safety, reliability, and ease of use:
 
 1. Dedicated Chamber: The current evaporator shares a chamber with the Sputter setup. V2 will feature a completely separate, dedicated vacuum chamber. This will allow both machines to be operated independently and simultaneously, increasing lab throughput and preventing cross-contamination between processes.
-2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.&#x20;
+2. Turbo Pump Isolation Valve (Baffle/Flap): A high-vacuum gate valve or baffle will be installed between the turbo pump and the main chamber. This will allow the turbo pump to be closed off once the target vacuum is reached, preventing evaporated metal vapors from entering the pump, condensing on the rapidly spinning blades, and causing mechanical failure or unbalancing.
 3. Thickness Monitor: Integrating a Quartz Crystal Microbalance (QCM) inside the chamber to measure the thickness of the deposited film in real-time, allowing for precise control over the final coating thickness.
-
-
 
 {% embed url="https://www.youtube.com/watch?v=97716PkbX2M" %}
