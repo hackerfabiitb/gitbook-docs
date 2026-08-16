@@ -12,7 +12,9 @@ A thermal evaporator is a Physical Vapor Deposition (PVD) system used to deposit
 
 The core principle is resistive heating: a very high electrical current is passed through a refractory metal filament (usually shaped like a basket or boat made of Tungsten or Molybdenum). The target material (like Aluminum pellets) is placed inside this filament. As the filament heats up, the metal melts and then evaporates. Because this happens in a high vacuum, the vaporized metal atoms travel in straight lines without colliding with air molecules, eventually condensing as a highly uniform thin film on the cooler substrate positioned above it.
 
-\[PLACEHOLDER: Add a picture of the overall finished Thermal Evaporator setup here]
+
+
+<figure><img src="../.gitbook/assets/IMG_6167.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Disclaimer
 
@@ -31,21 +33,21 @@ This documentation is provided for educational and informational purposes only. 
 
 | Item                | Description/Source                               | Cost (INR)   | Type  |
 | ------------------- | ------------------------------------------------ | ------------ | ----- |
-| Vacuum Chamber      | Upcycled from Sputter v-2 build                  | N/A          | Capex |
-| Rotary Pump         | Upcycled from Sputter v-2 build                  | N/A          | Capex |
-| Turbo Pump          | Upcycled from Sputter v-2 build                  | N/A          | Capex |
-| Pirani Gauge        | Upcycled from Sputter v-2 build                  | N/A          | Capex |
-| Penning Gauge       | Upcycled from Sputter v-2 build                  | N/A          | Capex |
-| Copper Feedthroughs | Custom made at RD Brothers (Khairani Road)       | ₹ 2,000      | Capex |
-| Teflon Washers      | Machined at RD Brothers (Khairani Road)          | ₹ 1,000      | Capex |
-| Gaskets             | Viton sheet machined at RD Brothers              | _\[Cost?]_   | Capex |
-| Substrate Stand     | Custom machined from Stainless Steel (SS)        | _\[Cost?]_   | Capex |
+| Vacuum Chamber      | Reused from Sputter v-2 build                    | N/A          | Capex |
+| Rotary Pump         | Reused from Sputter v-2 build                    | N/A          | Capex |
+| Turbo Pump          | Reused from Sputter v-2 build                    | N/A          | Capex |
+| Pirani Gauge        | Reused from Sputter v-2 build                    | N/A          | Capex |
+| Penning Gauge       | Reused from Sputter v-2 build                    | N/A          | Capex |
+| Copper Feedthroughs | Custom made at RD Brothers (Khairani Road)       | \~₹ 2,000    | Capex |
+| Teflon Washers      | Machined at RD Brothers (Khairani Road)          | \~₹ 1,000    | Capex |
+| Gaskets             | Viton sheet machined at RD Brothers              | \~₹ 1,000    | Capex |
+| Substrate Stand     | Custom machined from Stainless Steel (SS)        | \~₹ 1,000    | Capex |
 | Power Supply        | Welding PSU (220V AC mains, 220A max output)     | _\[Cost?]_   | Capex |
 | Electrical Gloves   | Electrically insulated; rated for at least 1000V | _\[Cost?]_   | Capex |
 | Tungsten Filament   | Basket style; KMV Vacuum Technology, Bangalore   | \~₹ 900 / ea | Opex  |
 | Target Metal        | e.g., Aluminum pellets (\~100 grams)             | \~₹ 2,500    | Opex  |
 
-_\[PLACEHOLDER: Add exact model, bill link, and cost of Welding Power Supply]_ _\[PLACEHOLDER: Add costs for the gaskets and substrate stand if known]_
+_\[PLACEHOLDER: Add exact model, bill link, and cost of Welding Power Supply]_&#x20;
 
 ### The Build
 
@@ -56,13 +58,11 @@ The feedthrough design is based on the concepts shown in [this reference video](
 Step-by-Step Assembly:
 
 1. Feedthrough Preparation: Design and machine the copper feedthroughs. You also need to manufacture custom Teflon washers (for electrical isolation) and Viton gaskets (for vacuum sealing).
-2. Chamber Modification: Drill two precisely spaced holes into the bottom plate of the sputter chamber to house the feedthroughs.
+2. Chamber Modification: Drill two precisely spaced holes according to the length of the tungsten filament into the bottom plate of the sputter chamber to house the feedthroughs.
 3. Feedthrough Installation: Install the copper feedthroughs into the bottom plate, ensuring the Viton gaskets and Teflon washers are placed correctly to maintain a tight vacuum seal and prevent electrical shorting to the steel chamber.
-   * \[PLACEHOLDER: Add a picture/diagram showing exactly where the Teflon washers and Viton gaskets sit relative to the chamber wall and feedthrough]
 4. Power Connection: Connect the high-current output lines of the welding power supply securely to the external ends of the copper feedthroughs.
    * \[PLACEHOLDER: Add a picture showing the welding power supply connected to the feedthroughs]
 5. Filament Installation: Inside the chamber, bridge the two copper feedthroughs using the Tungsten basket filament. Ensure the connections are tight, but do not put mechanical stress on the filament, as Tungsten is brittle.
-   * \[PLACEHOLDER: Add a close-up picture of the Tungsten filament connected to the feedthroughs]
 6. Load Target Material: Place the metal evaporation pellets (e.g., Al) directly inside the Tungsten filament basket.
    * \[PLACEHOLDER: Add a picture of the pellets loaded in the basket]
 
@@ -73,24 +73,34 @@ Step-by-Step Assembly:
 1. Open Chamber: Take the top plate off the chamber by unscrewing the diagonally opposite screws.
 2. Remove Internals: Carefully take the SS substrate stand out of the chamber.
 3. Cleaning: Clean the entire internal chamber and all components that go inside (especially the substrate stand) using Acetone, followed by IPA. _Do this while wearing nitrile gloves to avoid transferring oils from your skin._
-4. Install Filament: Connect the Tungsten filament across the feedthroughs. Caution: Do not apply excessive mechanical stress to the filament, or it will snap.
+4.  Install Filament: Connect the Tungsten filament across the feedthroughs. Caution: Do not apply excessive mechanical stress to the filament, or it will snap.
+
+    <figure><img src="../.gitbook/assets/IMG_6163.jpg" alt=""><figcaption></figcaption></figure>
 5. Load Pellets: Place your metal pellets inside the Tungsten filament.
-6. Place Substrate: Put the SS stand back into the chamber. Place your substrate onto the stand. Double-check that the substrate is positioned perfectly over the hole in the stand, sitting at the correct height (8.5 cm) directly above the Tungsten basket. You can put a glass slide next to the silicon wafer if depositing on silicon to observe whether the deposition has started.
+6. Place Substrate: Put the SS stand back into the chamber. Place your substrate onto the stand. Double-check that the substrate is positioned perfectly over the hole in the stand, sitting at the correct height (8.5 cm) directly above the Tungsten basket. You can put a glass slide next to the silicon wafer if depositing on silicon to observe whether the deposition has started.![](../.gitbook/assets/IMG_6172.jpg)
 7. Seal Chamber: Place the top plate back on and begin screwing it in.
-8. Connect Gauges: Connect both the Pirani gauge and the Penning gauge to their respective ports on the top plate.
+8.
+
+    <figure><img src="../.gitbook/assets/IMG_6160.jpg" alt=""><figcaption></figcaption></figure>
+9.
+
+    <figure><img src="../.gitbook/assets/IMG_6176.jpg" alt=""><figcaption></figcaption></figure>
+10. Connect Gauges: Connect both the Pirani gauge and the Penning gauge to their respective ports on the top plate.
 
 #### Phase 2: Pump Down
 
 9. Start Pirani: Turn on the Pirani gauge. The orange light will turn on, and it will read `999` (indicating atmospheric pressure).
 10. Roughing Vacuum: Turn on the rotary pump. As the pump runs, firmly tighten the top plate screws to compress the O-ring and create a proper vacuum seal. The orange light on the gauge will turn off as pressure drops.
-11. Open Turbo Valve: Wait for the rotary pump to bring the pressure down to 70-80 mbar. Once there, open the turbo valve to continue dropping the pressure.
-    * \[PLACEHOLDER: Add a picture of the Pirani gauge reading 70-80 mbar]
-    * \[PLACEHOLDER: Add a picture showing which valve is the turbo valve and how to open it]
-12. Wait for High Vacuum Threshold: Wait approximately 20 minutes for the pressure to reach 1e-3 mbar.
-13. Start High Vacuum: Turn on the Penning gauge, then turn on the turbo pump.
-14. Wait for Target Vacuum: Wait roughly 30 minutes for the pressure to reach 1e-5 mbar.
+11.
 
-#### Phase 3: Evaporation Process
+    <figure><img src="../.gitbook/assets/IMG_6170.jpg" alt=""><figcaption></figcaption></figure>
+12. Open Turbo Valve: Wait for the rotary pump to bring the pressure down to 70-80 mbar. Once there, open the turbo valve to continue dropping the pressure.![](../.gitbook/assets/IMG_6177.jpg)
+    * \[PLACEHOLDER: Add a picture showing which valve is the turbo valve and how to open it]
+13. Wait for High Vacuum Threshold: Wait approximately 20 minutes for the pressure to reach 1e-3 mbar.
+14. Start High Vacuum: Turn on the Penning gauge, then turn on the turbo pump.
+15. Wait for Target Vacuum: Wait roughly 30 minutes for the pressure to reach 1e-5 mbar.
+
+Phase 3: Evaporation Process
 
 15. Power Up (Wear 1000V rated gloves!): Turn on the welding power supply.
 16. Ramp Current: Slowly ramp up the current in increments of 10 Amps at a time. Wait 30 seconds between each step to avoid thermal shock, until you reach a final current of 55 Amps.
