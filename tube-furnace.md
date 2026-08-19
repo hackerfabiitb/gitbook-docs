@@ -196,6 +196,68 @@ Then, to the extruding Kanthal Coil ends, twirl Kanthal of a lesser gauge around
 
 It'll take 3-4 days for the cement to dry completely. In the meantime, you need to complete the electrical circuit, the directions for which are given after the furnace build.
 
+#### 2.4.2 Curing the Cement
+
+After the cement has been completely dried, you will need to cure it. You should have the circuit ready by the time the cement has dried, since it takes around 3-4 days to dry, and the circuit can be made within 2 days (1 day to buy everything, 1 day to build it).
+
+#### MAINTAIN UTMOST SAFETY AND PRECAUTION WHILE DOING THIS!!
+
+Cover the loose ends of the Kanthal wire with ceramic beads, and connect them to live and neutral using porcelain connectors. Before switching the mains switch on, make sure everything has been securely connected. Set the temperature controller to K-type and set to 100 degrees celsius.
+
+Switch the mains supply on, and let the cement cure for half a day. Do not let anyone go near the heating element. Any contact with it will kill you instantly.
+
+<figure><img src=".gitbook/assets/BAE13695-5342-4AEE-819C-73C126151927_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+#### 2.5 Steel Box Fabrication
+
+Firstly, cut your steel sheets into appropriate dimensions, and then weld them together to create a steel envelope of sorts.
+
+<figure><img src=".gitbook/assets/6A0D6A5B-2326-4DA9-A6CB-E83872783B18_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+
+Using the angles, cut them to the appropriate dimensions and insert them into this frame to help with rigidity and get rid of that depression you see on the top plate. Drill holes in appropriate places since we will be screwing in the front plate.
+
+<figure><img src=".gitbook/assets/3FE37E71-A9E2-4113-B4F9-764680E86359_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+
+We needed help with welding, since we are not trained to weld. In this image you can see how we installed the angles and welded them with appropriate slots for screws.
+
+<figure><img src=".gitbook/assets/CB2D16C0-3AA8-4E3E-A42D-87503CA54361_1_102_o.jpeg" alt=""><figcaption></figcaption></figure>
+
+Make a square hole in the bottom plate and weld it in, make sure to leave the top plate uninstalled:&#x20;
+
+<figure><img src=".gitbook/assets/3368D49D-40FC-47FD-B626-0BE0391579F5_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+
+#### 2.6 Insulation
+
+This is certainly the most itchy part of the entire thing. Ceramic wool is dangerous to your lungs and can cause chronic diseases. Please wear a mask and thick gloves to protect yourself from the wool. This is me lifting up the entire roll of ceramic wool. I regret not wearing a full sleeve tshirt, so I highly recommend wearing one - unless you want your hands to itch unbearably.
+
+<figure><img src=".gitbook/assets/2ED1152C-B197-43F9-AA8A-2B7E39D5B82D_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+Do some jugaad to find out the perfect cutout for the top plate :&#x20;
+
+<figure><img src=".gitbook/assets/56B2B3AB-8A3A-4413-B2F1-EA490956CDB2_1_106_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+And then after cutting it with a knife, fit it on the bottom plate :&#x20;
+
+<figure><img src=".gitbook/assets/CF0CCEA6-CDB5-4CB6-8233-884D0443C3CC_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+The next step is quite a bit of manual labor, and it involves wrapping the cement cast in as much insulation as you have available. Get one person to do the rolling, one person to slide the wool beneath the role, and one person to cut off the excess roll, after all this you'll get a very well packed roll of insulation :&#x20;
+
+<figure><img src=".gitbook/assets/A69507C0-CE1E-40AA-8423-70F8E8FEB9E9_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+Now, just pack the gaps with whatever ceramic wool you have left, screw in the top plate and you're good to go!&#x20;
+
+Cover the loose ends of the Kanthal with ceramic beads, and using a porcelain connector connect it to live and neutral. Stuff some ceramic wool around the inner cement and insert the quartz tube into it so that it does not touch the cement and is centered. Paint the steel enclosure with aluminum paint and connect it to ground. Voila! The tube furnace is ready! This was our tube furnace just after it was built :&#x20;
+
+<figure><img src=".gitbook/assets/60875E49-C4B3-431C-A5C4-9B5A587117D8_1_105_c.jpeg" alt=""><figcaption></figcaption></figure>
+
+After moving it to our lab, and spray painting the circuit box with black spray paint from Mr. DIY :&#x20;
+
+<figure><img src=".gitbook/assets/9D57DB4E-E240-4D69-8EA1-18B3E310B406_1_102_a.jpeg" alt=""><figcaption></figcaption></figure>
+
+For any questions regarding the build, please email me at rushat.dixit@gmail.com, or join our discord server : [https://discord.gg/EcQqY8Dmv3](https://discord.gg/EcQqY8Dmv3)
+
+The SOP has been included separately. &#x20;
+
 ### The Circuit
 
 #### Component List
