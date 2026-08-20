@@ -46,6 +46,7 @@
   * HMDS + Dehydration + Bake: A combination of these step might help us solve the problem of HF attacking photoresist
   * Strict Humidity Control: Perform dehydration bakes and spin coating in a low humidity environment
   * Chromium (Cr) Hard Mask: Deposit a thin metal layer to act as the primary HF barrier, which can also help us with the problem of HF attacking photoresist
+  * BOE(Buffered Oxide Etch) might be better for SiO2 etching
 
 #### Some important links:
 
@@ -53,3 +54,6 @@ Previous moscap + diode runs : [HackerFab Characterisation - Google Docs](https:
 Moscap lab report(from some course?) : [MOSCap Lab Report (18-410/610 S26) - Google Docs](https://docs.google.com/document/d/1vXfvOCq2npE0pBO5wzHDL6-moE2DDtNtiPALTWdSElE/edit?tab=t.0)\
 Reference youtube links for process: [https://youtu.be/h6GWikWlAQA?si=-4tnxWmMNuInQbWL](https://youtu.be/h6GWikWlAQA?si=-4tnxWmMNuInQbWL)(small devices)\
 [https://youtu.be/s1MCi7FliVY?si=qV3K9AzkhmW9XfwS](https://youtu.be/s1MCi7FliVY?si=qV3K9AzkhmW9XfwS)(big devices)
+
+RCA Cleaning: [https://youtu.be/bS4VtjRc3og?si=hjJ5zUZQisqlUsgI](https://youtu.be/bS4VtjRc3og?si=hjJ5zUZQisqlUsgI)\
+[https://youtu.be/wL10iqP2xI8?si=rpe0rnTaM42b8SS-](https://youtu.be/wL10iqP2xI8?si=rpe0rnTaM42b8SS-)<br>

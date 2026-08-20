@@ -9,6 +9,12 @@ MOSCAPs(with shadow mask)
 5. (Optional) - evaporate Al for backside contact
 6. Probe each capacitor in Proxima and do the CV characterisation&#x20;
 
+
+
+### Some runs
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 \
 <br>
 

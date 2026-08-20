@@ -18,7 +18,7 @@ Scan length: 240um\
 **Step height: 47nm**\
 **Profile:**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -35,7 +35,7 @@ Scan length: 80um\
 
 Profile:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Sample 2: 15min, 115W.&#x20;
 
@@ -44,13 +44,13 @@ Reading 1:
 comments: sample was much cleaner visually
 
 scan location:\
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 scan length: 325um\
 scan duration: 325s\
 horizontal resolution according to software: 3nm/pt
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 step visible at 0.12mm, but no flat region on either side
 
