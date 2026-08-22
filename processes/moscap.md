@@ -15,6 +15,5 @@ MOSCAPs(with shadow mask)
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-\
-<br>
+{% file src="../.gitbook/assets/moscap-2208.zip" %}
 
