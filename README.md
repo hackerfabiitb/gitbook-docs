@@ -14,5 +14,7 @@ We are gradually documenting our tools, please be patient if a page looks incomp
 
 We have extensive discussions on Discord: [https://discord.gg/FNUgVRxmef](https://discord.gg/FNUgVRxmef) . For example, for doubts about our litho system, post on the `#litho-v1` channel.
 
+We stand on the shoulders of the rest of the HackerFab community, which is thoroughly documented at [https://docs.hackerfab.org/](https://docs.hackerfab.org/)
+
 
 
