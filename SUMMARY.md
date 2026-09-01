@@ -15,6 +15,8 @@
 
 * [Wafer Info](fab-basics/wafer-info.md)
 * [Wafer Handling](fab-basics/wafer-handling.md)
+* [Liftoff and Undercut in Deposition](fab-basics/liftoff-and-undercut-in-deposition.md)
+* [Litho performance](fab-basics/litho-performance.md)
 
 ## Processes
 
