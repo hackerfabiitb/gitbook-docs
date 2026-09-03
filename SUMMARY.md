@@ -8,7 +8,7 @@
   * [XYZ Stage](tools/litho-v1/xyz-stage.md)
 * [sputter-v2](tools/sputter-v2.md)
 * [tube-furnace](tube-furnace.md)
-* [dopant](tools/dopant.md)
+* [dopant (diy)](tools/dopant-diy.md)
 * [thermal-evaporator-v1](tools/thermal-evaporator-v1.md)
 
 ## FAB BASICS
