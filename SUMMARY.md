@@ -5,6 +5,7 @@
 ## Tools
 
 * [litho-v1](tools/litho-v1/README.md)
+  * [SOP](tools/litho-v1/sop.md)
   * [XYZ Stage](tools/litho-v1/xyz-stage.md)
 * [sputter-v2](tools/sputter-v2.md)
 * [tube-furnace](tube-furnace.md)

@@ -6,6 +6,12 @@ description: A direct-write photolithography system with 5um line/space under IN
 
 Our lithography system is based HackerFab CMU's Litho v2.1+ (which is their latest as of September 2026): [https://docs.hackerfab.org/home/fab-toolkit/patterning/lithography-stepper-v2.1+-build](https://docs.hackerfab.org/home/fab-toolkit/patterning/lithography-stepper-v2.1+-build)
 
+<figure><img src="../../.gitbook/assets/litho_setup.jpg" alt=""><figcaption><p>litho-v1 setup with litho-control software in yellow room</p></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/new_res_test.jpg" alt=""><figcaption><p>3 micron line / 7 micron space features</p></figcaption></figure>
+
 ## Intro
 
 Lithography means writing patterns into stone (Greek: lithos: stone, graphy: to write). Lithography is used in microfabrication to create patterns of a circuit on silicon.\
@@ -45,6 +51,8 @@ INR 2 Lakh Budget
 
 ## Software
 
+### &#x20;Prerequisites
+
 | Sr No | Software Name  | Purpose                                            | Instructions                                                                       | Link                                                                                                                                                                                   |
 | ----- | -------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1     | Basler Pylon   | Receiving video feed from industrial camera        | Download the latest version of Pylon (the software suite, not the redistributable) | [https://www.baslerweb.com/en/downloads/software/?downloadCategory.values.label.data=pylon](https://www.baslerweb.com/en/downloads/software/?downloadCategory.values.label.data=pylon) |
@@ -52,62 +60,36 @@ INR 2 Lakh Budget
 | 3     | GIMP           | Open-source image editor for creating masks        |                                                                                    | [https://www.gimp.org/downloads/](https://www.gimp.org/downloads/)                                                                                                                     |
 | 4     | OBS Studio     | viewing the video feed being sent to the projector |                                                                                    | [https://obsproject.com/download](https://obsproject.com/download)                                                                                                                     |
 
-## SOP
+### litho-control
 
-These recipes are based on the ones developed at IITBNF ([https://www.iitbnf.iitb.ac.in/](https://www.iitbnf.iitb.ac.in/))
+`litho-control` is a software developed by us to control the projector, camera and XYZ stage in one window. Install it from [https://github.com/hackerfabiitb/litho-control](https://github.com/hackerfabiitb/litho-control)
 
-### Chemicals
+Features:
+
+1. autofocus
+2. exposure sweeps
+3. Scan for widefield images(step, autofocus, take image, repeat)
+4. optical tracking to track in-camera features during stage movement, to calibrate stage performance.
+
+## Chemicals Used
 
 1. S1813 PPR: Positive Photoresist: exposed parts are soluble in developer. [Datasheet](https://drive.google.com/file/d/1xYIi1hyWTzFgmqcuzrqd_HlrwxEy8HMW/view?usp=drive_link), [MSDS 1](https://drive.google.com/file/d/1EmSJbKPpif73l_fudvb6x7Dx4e-fZoJc/view?usp=drive_link), [MSDS 2](https://drive.google.com/file/d/1jNVW-7bWbhX3y3jYUYZ0rI_DoDHn2GJi/view?usp=drive_link)
 2. LOR 3b: lift-off resist used for removing un-patterned metal after sputtering. Not photosensitive, but used to provide undercut (see[liftoff-and-undercut-in-deposition.md](../../fab-basics/liftoff-and-undercut-in-deposition.md "mention")). TODO Datasheet, MSDS
 3. Mf319 Developer: removes LOR and exposed PPR. [Datasheet](https://drive.google.com/file/d/1XRJLITyVZ61BJQAi83fC5ZQ2qnj0IHLI/view?usp=drive_link), [MSDS](https://drive.google.com/file/d/1mUCmngaEArfdS0SmwkyfwTIn1UmCWHU0/view?usp=drive_link)
 4. PG Remover: removes resists ignoring exposure. [Datasheet](https://drive.google.com/file/d/1LLKt0cq4torESFUye8tevUG-2PJ9fTeg/view?usp=drive_link), [MSDS](https://drive.google.com/file/d/1CHMThWx8GCKCOkcU-4_TkZDemfF-qgW7/view?usp=drive_link)
 
-### PPR spin+bake recipe
 
-| Sr. No. | Process     | Step    | Parameters                                              |
-| ------- | ----------- | ------- | ------------------------------------------------------- |
-| 1       | PPR coating | Step-1  | <p>Time = 10 s<br>RPM = 500<br>Acceleration = 250</p>   |
-|         |             | Step-2  | <p>Time = 45 s<br>RPM = 4000<br>Acceleration = 2000</p> |
-|         |             | Step-3  | <p>Time = 10 s<br>RPM = 0<br>Acceleration = 500</p>     |
-| 2       | PPR Bake    | Heating | <p>Time = 3 min<br>Temperature = 90 °C</p>              |
 
-### LOR spin+bake recipe
+## Notes
 
-| Sr. No. | Process     | Step    | Parameters                                              |
-| ------- | ----------- | ------- | ------------------------------------------------------- |
-| 1       | LOR coating | Step-1  | <p>Time = 10 s<br>RPM = 500<br>Acceleration = 250</p>   |
-|         |             | Step-2  | <p>Time = 45 s<br>RPM = 4000<br>Acceleration = 2000</p> |
-|         |             | Step-3  | <p>Time = 10 s<br>RPM = 0<br>Acceleration = 500</p>     |
-| 2       | LOR Bake    | Heating | <p>Time = 5 min<br>Temperature = 150 °C</p>             |
+Post-exposure bake has not been tested. It may improve development.&#x20;
 
 Exposure dose = 140mJ/cm^2 is the dose optimized by IITBNF. We don't have capability to measure intensity yet. See [#led-current-mapping](./#led-current-mapping "mention")
 
-The optimal dose and develop varies with resist age, temperature, humidity etc. A reasonable range is 120-160mJ/cm^2 and 15s to 40s respectively. See&#x20;
+The optimal dose and develop varies with resist age, temperature, humidity etc. A reasonable range is 120-160mJ/cm^2 and 15s to 40s respectively.
 
-### DLP usage
 
-1. Turn on the projector power supply
-2. Turn on the TODO switch
-3. Open the TI DLP EVM GUI software: it should show the projector connected. If not: [#debugging](./#debugging "mention")&#x20;
-
-#### Debugging
-
-Debug > USB connection
-
-Unplug, replug usb cable
-
-remove HDMI cable
-
-check Device Manager
-
-TODO
 
 #### LED current mapping
 
 As discovered by TODO on the HackerFab Discord, the current shown in the software maps to actual LED milliamps by TODO formula
-
-### Dose Matrix: how to develop a litho recipe for your setup
-
-See [litho-performance.md](../../fab-basics/litho-performance.md "mention")
-
