@@ -37,6 +37,32 @@ Do LOR\_spin+bake then PPR\_spin+bake when doing litho then sputtering then lift
 |         |                   | Step-3  | <p>Time = 10 s<br>RPM = 0<br>Acceleration = 500</p>     |
 | 2       | Pre-exposure Bake | Heating | <p>Time = 5 min<br>Temperature = 150 °C</p>             |
 
+### Dispensing Photoresist
+
+1. **Turn on yellow lights and turn off white lights**
+2. Take out S1813 photoresist from fridge and keep it out to reach room temperature
+3. Set hot plate to recipe temperature and wait for it to stabilize.
+
+The above steps take time so do them beforehand. Then:
+
+1. Open spincoater lid. Replace the Al foil if it is dirty.
+2. Place the sample centred on the O-ring.&#x20;
+3. Put new tip on $$100\mu L$$ micropipette
+4. Set it to $$100\mu L$$ . This is sufficient for even a 2 inch wafer.
+5. Remove the Al foil and open the cap of the resist.
+6. Press the pipette plunger. Dip only the tip of the pipette into the liquid. release the plunger
+7. Move the tip over the sample. As you dispense move the tip around so the droplets cover the entire wafer
+8. Press the slider to release the tip into a garbage bag.
+9. Close the spincoater lid.
+10. Start the preloaded recipe.
+11. Bake according to the recipe. Keep a petri dish over the sample to prevent dust falling.
+12. Lower the litho chuck in software (see below)
+13. place the sample on the litho chuck
+
+
+
+See [https://youtu.be/Jfqafjt4q6U](https://youtu.be/Jfqafjt4q6U) for how to use a pipette properly.
+
 ## 3. Litho
 
 ### Startup
